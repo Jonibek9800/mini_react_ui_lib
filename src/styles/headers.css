@@ -1,0 +1,29 @@
+:root {
+    --header1-medium: {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+    --header1-bold: {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 32px;
+    }
+    --header2-bold: {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    --header2-medium: {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    --header2-large: {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}
+
+

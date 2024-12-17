@@ -1,0 +1,398 @@
+colors {
+    /* reds */
+    --black: #000000;
+    --red: #ff0000;
+    --green: #008000;
+    --white: #fff;
+    --pink: #ffc0cb;
+    --blue: #0000ff;
+    --cyan: #00ffff;
+    --denim: #6f8faf;
+    --teal: #008080;
+    --turquoise: #40e0d0;
+    --ultramarine: #0437f2;
+    --verdigris: #40b5ad;
+    --zaffre: #0818a8;
+    --charcoal: #36454f;
+    --dark-green: #023020;
+    --almond: #eaddca;
+    --brass: #e1c16e;
+    --bronze: #cd7f32;
+    --brown: #a52a2a;
+    --buff: #daa06d;
+    --burgundy: #800020;
+    --dark-purple: #301934;
+    --jet-black: #343434;
+    --licorice: #1b1212;
+    --matte-black: #28282b;
+    --midnight-blue: #191970;
+    --onyx: #353935;
+    --aqua: #00ffff;
+    --azure: #f0ffff;
+    --baby-blue: #89cff0;
+    --blue-gray: #7393b3;
+    --blue-green: #088f8f;
+    --bright-blue: #0096ff;
+    --cadet-blue: #5f9ea0;
+    --cobalt-blue: #0047ab;
+    --cornflower-blue: #6495ed;
+    --dark-blue: #00008b;
+    --denim: #6f8faf;
+    --egiptian-blue: #1434a4;
+    --electric-blue: #7df9ff;
+    --glaucous: #6082b6;
+    --jade: #00a36c;
+    --indigo: #3f00ff;
+    --iris: #5d3fd3;
+    --light-blue: #add8e6;
+    --midnight-blue: #191970;
+    --navy-blue: #000080;
+    --neon-blue: #1f51ff;
+    --pastel-blue: #a7c7e7;
+    --periwinkle: #ccccff;
+    --powder-blue: #b6d0e2;
+    --robin-egg-blue: #96ded1;
+    --royal-blue: #4169e1;
+    --sapphire-blue: #0f52ba;
+    --seafoam-green: #9fe2bf;
+    --sky-blue: #87ceeb;
+    --steel-blue: #4682b4;
+    --dark-red: #8b0000;
+    --red-brown: #a52a2a;
+    --red-ochre: #913831;
+    --tuscan-red: #7c3030;
+    --red-orange: #ff4433;
+    --pastel-red: #faa0a0;
+    --red-purple: #953553;
+    --rose-red: #c21e56;
+    --ruby-red: #e0115f;
+    --blood-red: #880808;
+    --brick-red: #aa4a44;
+    --cadmium-red: #d22b2b;
+    --cardinal-red: #c41e3a;
+    --dark-red: #8b0000;
+    --falu-red: #7b1818;
+    --neon-red: #ff3131;
+    --burnt-sienna: #e97451;
+    --burnt-umber: #6e260e;
+    --camel: #c19a6b;
+    --chestnut: #954535;
+    --chocolate: #7b3f00;
+    --cinnamon: #d27d2d;
+    --coffee: #6f4e37;
+    --cognas: #834333;
+    --copper: #b87333;
+    --cordowan: #814141;
+    --dark-brown: #5c4033;
+    --dark-red: #8b0000;
+    --dark-tan: #988558;
+    --ecru: #c2b280;
+    --fallow: #c19a6b;
+    --fawn: #e5aa70;
+    --garnet: #9a2a2a;
+    --golden-brown: #966919;
+    --khaki: #f0e68c;
+    --light-brown: #c4a484;
+    --mahogany: #c04000;
+    --maroon: #800000;
+    --mocha: #967969;
+    --nude: #f2d2bd;
+    --ochre: #cc7722;
+    --olive-green: #808000;
+    --oxblood: #4a0404;
+    --puce: #a95c68;
+    --red-brown: #a52a2a;
+    --red-ochre: #913831;
+    --russet: #80461b;
+    --saddle-brown: #8b4513;
+    --sand: #c2b280;
+    --sienna: #a0522d;
+    --tan: #d2b48c;
+    --taupe: #483c32;
+    --tuscan-red: #7c3030;
+    --wine: #722f37;
+
+    --ash-gray: #b2beb5;
+    --blue-gray: #7393b3;
+    --char: #36454f;
+    --dark-gray: #a9a9a9;
+    --glaucous: #6082b6;
+    --gray: #808080;
+    --gunmetal-gray: #818589;
+    --light-gray: #d3d3d3;
+    --pewter: #899499;
+    --platinum: #e5e4e2;
+    --sage-green: #8a9a5b;
+    --silver: #c0c0c0;
+    --wheat: #f5deb3;
+    --smoke: #848884;
+    --slate-gray: #708090;
+    --steel-gray: #71797e;
+    --aqua: #00ffff;
+    --army-green: #454b10;
+    --blue-green: #088f8f;
+    --bright-green: #aaff00;
+    --cadet-blue: #5f9ea0;
+    --cadmium-green: #097969;
+    --celadon: #afe1af;
+    --chartreuse: #dfff00;
+    --citrine: #e4d00a;
+    --cyan: #00ffff;
+    --dark-green: #023020;
+    --electric-blue: #7df9ff;
+    --emerald-green: #50c878;
+    --eucalyptus: #5f8575;
+    --fern-green: #4f7942; /*rgb(79, 121, 66)*/
+    --forest-green: #228b22; /*rgb(34, 139, 34)*/
+    --aquamarine: #7fffd4; /*rgb(127, 255, 212)*/
+    --green: #008000; /*rgb(0, 128, 0)*/
+    --hunter-green: #355e3b; /*rgb(53, 94, 59)*/
+    --jade: #00a36c; /*rgb(0, 163, 108)*/
+    --jungle-green: #2aaa8a; /*rgb(42, 170, 138)*/
+    --kelly-green: #4cbb17; /*rgb(76, 187, 23)*/
+    --light-green: #90ee90; /*rgb(144, 238, 144)*/
+    --lime-green: #32cd32; /*rgb(50, 205, 50)*/
+    --lincoln-green: #478778; /*rgb(71, 135, 120)*/
+    --malachite: #0bda51; /*rgb(11, 218, 81)*/
+    --mint-green: #98fb98; /*rgb(152, 251, 152)*/
+    --moss-green: #8a9a5b; /*rgb(138, 154, 91)*/
+    --neon-green: #0fff50; /*rgb(15, 255, 80)*/
+    --nyanza: #ecffdc; /*rgb(236, 255, 220)*/
+    --olive-green: #808000; /*rgb(128, 128, 0)*/
+    --pastel-green: #c1e1c1; /*rgb(193, 225, 193)*/
+    --pear: #c9cc3f; /*rgb(201, 204, 63)*/
+    --peridot: #b4c424; /*rgb(180, 196, 36)*/
+    --pistachio: #93c572; /*rgb(147, 197, 114)*/
+    --robin-egg-blue: #96ded1; /*rgb(150, 222, 209)*/
+    --sage-green: #8a9a5b; /*rgb(138, 154, 91)*/
+    --sea-green: #2e8b57; /*rgb(46, 139, 87)*/
+    --seafoam-green: #9fe2bf; /*rgb(159, 226, 191)*/
+    --shamrock-green: #009e60; /*rgb(0, 158, 96)*/
+    --spring-green: #00ff7f; /*rgb(0, 255, 127)*/
+    --teal: #008080; /*rgb(0, 128, 128)*/
+    --turquoise: #40e0d0; /*rgb(64, 224, 208)*/
+    --vegas-gold: #c4b454; /*rgb(196, 180, 84)*/
+    --verdigris: #40b5ad; /*rgb(64, 181, 173)*/
+    --viridian: #40826d; /*rgb(64, 130, 109)*/
+    --amber: #ffbf00; /*rgb(255, 191, 0)*/
+    --apricot: #fbceb1; /*rgb(251, 206, 177)*/
+    --bisque: #f2d2bd; /*rgb(242, 210, 189)*/
+    --bright-orange: #ffac1c; /*rgb(255, 172, 28)*/
+    --bronze: #cd7f32; /*rgb(205, 127, 50)*/
+    --grass-green: #7cfc00; /*rgb(124, 252, 0)*/
+    --buff: #daa06d; /*rgb(218, 160, 109)*/
+    --burnt-orange: #cc5500; /*rgb(204, 85, 0)*/
+    --butterscotch: #e3963e; /*rgb(227, 150, 62)*/
+    --cadmium-orange: #f28c28; /*rgb(242, 140, 40)*/
+    --cinnamon: #d27d2d; /*rgb(210, 125, 45)*/
+    --copper: #b87333; /*rgb(184, 115, 51)*/
+    --coral: #ff7f50; /*rgb(255, 127, 80)*/
+    --coral-pink: #f88379; /*rgb(248, 131, 121)*/
+    --dark-orange: #8b4000; /*rgb(139, 64, 0)*/
+    --desert: #fad5a5; /*rgb(250, 213, 165)*/
+    --gamboge: #e49b0f; /*rgb(228, 155, 15)*/
+    --golden-yellow: #ffc000; /*rgb(255, 192, 0)*/
+    --goldenrod: #daa520; /*rgb(218, 165, 32)*/
+    --light-orange: #ffd580; /*rgb(255, 213, 128)*/
+    --mahogany: #c04000; /*rgb(192, 64, 0)*/
+    --mango: #f4bb44; /*rgb(244, 187, 68)*/
+    --navajo-white: #ffdead; /*rgb(255, 222, 173)*/
+    --neon-orange: #ff5f1f; /*rgb(255, 95, 31)*/
+    --ochre: #cc7722; /*rgb(204, 119, 34)*/
+    --orange: #ffa500; /*rgb(255, 165, 0)*/
+    --pastel-orange: #fac898; /*rgb(250, 200, 152)*/
+    --peach: #ffe5b4; /*rgb(255, 229, 180)*/
+    --persimmon: #ec5800; /*rgb(236, 88, 0)*/
+    --pink-orange: #f89880; /*rgb(248, 152, 128)*/
+    --poppy: #e35335; /*rgb(227, 83, 53)*/
+    --pumpkin-orange: #ff7518; /*rgb(255, 117, 24)*/
+    --red-orange: #ff4433; /*rgb(255, 68, 51)*/
+    --safety-orange: #ff5f15; /*rgb(255, 95, 21)*/
+    --salmon: #fa8072; /*rgb(250, 128, 114)*/
+    --seashell: #fff5ee; /*rgb(255, 245, 238)*/
+    --sienna: #a0522d; /*rgb(160, 82, 45)*/
+    --sunset-orange: #fa5f55; /*rgb(250, 95, 85)*/
+    --tangerine: #f08000; /*rgb(240, 128, 0)*/
+    --terra-cotta: #e3735e; /*rgb(227, 115, 94)*/
+    --yellow-orange: #ffaa33; /*rgb(255, 170, 51)*/
+    --amaranth: #9f2b68; /*rgb(159, 43, 104)*/
+    --bisque: #f2d2bd; /*rgb(242, 210, 189)*/
+    --cerise: #de3163; /*rgb(222, 49, 99)*/
+    --claret: #811331; /*rgb(129, 19, 49)*/
+    --coral: #ff7f50; /*rgb(255, 127, 80)*/
+    --coral-pink: #f88379; /*rgb(248, 131, 121)*/
+    --crimson: #dc143c; /*rgb(220, 20, 60)*/
+    --dark-pink: #aa336a; /*rgb(170, 51, 106)*/
+    --dusty-rose: #c9a9a6; /*rgb(201, 169, 166)*/
+    --fuchsia: #ff00ff; /*rgb(255, 0, 255)*/
+    --hot-pink: #ff69b4; /*rgb(255, 105, 180)*/
+    --light-pink: #ffb6c1; /*rgb(255, 182, 193)*/
+    --magenta: #ff00ff; /*rgb(255, 0, 255)*/
+    --millennial-pink: #f3cfc6; /*rgb(243, 207, 198)*/
+    --mulberry: #770737; /*rgb(119, 7, 55)*/
+    --neon-pink: #ff10f0; /*rgb(255, 16, 240)*/
+    --orchid: #da70d6; /*rgb(218, 112, 214)*/
+    --pastel-pink: #f8c8dc; /*rgb(248, 200, 220)*/
+    --pastel-red: #faa0a0; /*rgb(250, 160, 160)*/
+    --pink: #ffc0cb; /*rgb(255, 192, 203)*/
+    --pink-orange: #f89880; /*rgb(248, 152, 128)*/
+    --plum: #673147; /*rgb(103, 49, 71)*/
+    --puce: #a95c68; /*rgb(169, 92, 104)*/
+    --purple: #800080; /*rgb(128, 0, 128)*/
+    --raspberry: #e30b5c; /*rgb(227, 11, 92)*/
+    --red-purple: #953553; /*rgb(149, 53, 83)*/
+    --rose: #f33a6a; /*rgb(243, 58, 106)*/
+    --rose-gold: #e0bfb8; /*rgb(224, 191, 184)*/
+    --rose-red: #c21e56; /*rgb(194, 30, 86)*/
+    --ruby-red: #e0115f; /*rgb(224, 17, 95)*/
+    --salmon: #fa8072; /*rgb(250, 128, 114)*/
+    --seashell: #fff5ee; /*rgb(255, 245, 238)*/
+    --thistle: #d8bfd8; /*rgb(216, 191, 216)*/
+    --watermelon-pink: #e37383; /*rgb(227, 115, 131)*/
+    --amaranth: #9f2b68; /*rgb(159, 43, 104)*/
+    --bright-purple: #bf40bf; /*rgb(191, 64, 191)*/
+    --burgundy: #800020; /*rgb(128, 0, 32)*/
+    --byzantium: #702963; /*rgb(112, 41, 99)*/
+    --dark-pink: #aa336a; /*rgb(170, 51, 106)*/
+    --dark-purple: #301934; /*rgb(48, 25, 52)*/
+    --eggplant: #483248; /*rgb(72, 50, 72)*/
+    --iris: #5d3fd3; /*rgb(93, 63, 211)*/
+    --lavender: #e6e6fa; /*rgb(230, 230, 250)*/
+    --light-purple: #cbc3e3; /*rgb(203, 195, 227)*/
+    --light-violet: #cf9fff; /*rgb(207, 159, 255)*/
+    --lilac: #aa98a9; /*rgb(170, 152, 169)*/
+    --mauve: #e0b0ff; /*rgb(224, 176, 255)*/
+    --mauve-taupe: #915f6d; /*rgb(145, 95, 109)*/
+    --mulberry: #770737; /*rgb(119, 7, 55)*/
+    --orchid: #da70d6; /*rgb(218, 112, 214)*/
+    --pastel-purple: #c3b1e1; /*rgb(195, 177, 225)*/
+    --periwinkle: #ccccff; /*rgb(204, 204, 255)*/
+    --plum: #673147; /*rgb(103, 49, 71)*/
+    --puce: #a95c68; /*rgb(169, 92, 104)*/
+    --purple: #800080; /*rgb(128, 0, 128)*/
+    --quartz: #51414f; /*rgb(81, 65, 79)*/
+    --red-purple: #953553; /*rgb(149, 53, 83)*/
+    --thistle: #d8bfd8; /*rgb(216, 191, 216)*/
+    --tyrian-purple: #630330; /*rgb(99, 3, 48)*/
+    --violet: #7f00ff; /*rgb(127, 0, 255)*/
+    --wine: #722f37; /*rgb(114, 47, 55)*/
+    --wisteria: #bdb5d5; /*rgb(189, 181, 213)*/
+    --blood-red: #880808; /*rgb(136, 8, 8)*/
+    --brick-red: #aa4a44; /*rgb(170, 74, 68)*/
+    --bright-red: #ee4b2b; /*rgb(238, 75, 43)*/
+    --brown: #a52a2a; /*rgb(165, 42, 42)*/
+    --burgundy: #800020; /*rgb(128, 0, 32)*/
+    --burnt-umber: #6e260e; /*rgb(110, 38, 14)*/
+    --burnt-orange: #cc5500; /*rgb(204, 85, 0)*/
+    --burnt-sienna: #e97451; /*rgb(233, 116, 81)*/
+    --byzantium: #702963; /*rgb(112, 41, 99)*/
+    --cadmium-red: #d22b2b; /*rgb(210, 43, 43)*/
+    --cardinal-red: #c41e3a; /*rgb(196, 30, 58)*/
+    --carmine: #d70040; /*rgb(215, 0, 64)*/
+    --cerise: #de3163; /*rgb(222, 49, 99)*/
+    --cherry: #d2042d; /*rgb(210, 4, 45)*/
+    --chestnut: #954535; /*rgb(149, 69, 53)*/
+    --claret: #811331; /*rgb(129, 19, 49)*/
+    --coral-pink: #f88379; /*rgb(248, 131, 121)*/
+    --cordovan: #814141; /*rgb(129, 65, 65)*/
+    --crimson: #dc143c; /*rgb(220, 20, 60)*/
+    --dark-red: #8b0000; /*rgb(139, 0, 0)*/
+    --falu-red: #7b1818; /*rgb(123, 24, 24)*/
+    --garnet: #9a2a2a; /*rgb(154, 42, 42)*/
+    --mahogany: #c04000; /*rgb(192, 64, 0)*/
+    --maroon: #800000; /*rgb(128, 0, 0)*/
+    --marsala: #986868; /*rgb(152, 104, 104)*/
+    --mulberry: #770737; /*rgb(119, 7, 55)*/
+    --neon-red: #ff3131; /*rgb(255, 49, 49)*/
+    --oxblood: #4a0404; /*rgb(74, 4, 4)*/
+    --pastel-red: #faa0a0; /*rgb(250, 160, 160)*/
+    --persimmon: #ec5800; /*rgb(236, 88, 0)*/
+    --poppy: #e35335; /*rgb(227, 83, 53)*/
+    --puce: #a95c68; /*rgb(169, 92, 104)*/
+    --raspberry: #e30b5c; /*rgb(227, 11, 92)*/
+    --red: #ff0000; /*rgb(255, 0, 0)*/
+    --red-brown: #a52a2a; /*rgb(165, 42, 42)*/
+    --red-ochre: #913831; /*rgb(145, 56, 49)*/
+    --red-orange: #ff4433; /*rgb(255, 68, 51)*/
+    --red-purple: #953553; /*rgb(149, 53, 83)*/
+    --rose-red: #c21e56; /*rgb(194, 30, 86)*/
+    --ruby-red: #e0115f; /*rgb(224, 17, 95)*/
+    --russet: #80461b; /*rgb(128, 70, 27)*/
+    --salmon: #fa8072; /*rgb(250, 128, 114)*/
+    --scarlet: #ff2400; /*rgb(255, 36, 0)*/
+    --sunset-orange: #fa5f55; /*rgb(250, 95, 85)*/
+    --terra-cotta: #e3735e; /*rgb(227, 115, 94)*/
+    --tuscan-red: #7c3030; /*rgb(124, 48, 48)*/
+    --burnt-sienna: #e97451; /*rgb(233, 116, 81)*/
+    --tyrian-purple: #630330; /*rgb(99, 3, 48)*/
+    --venetian-red: #a42a04; /*rgb(164, 42, 4)*/
+    --vermillion: #e34234; /*rgb(227, 66, 52)*/
+    --wine: #722f37; /*rgb(114, 47, 55)*/
+    --alabaster: #edeade; /*rgb(237, 234, 222)*/
+    --beige: #f5f5dc; /*rgb(245, 245, 220)*/
+    --bone-white: #f9f6ee; /*rgb(249, 246, 238)*/
+    --cornsilk: #fff8dc; /*rgb(255, 248, 220)*/
+    --cream: #fffdd0; /*rgb(255, 253, 208)*/
+    --eggshell: #f0ead6; /*rgb(240, 234, 214)*/
+    --ivory: #fffff0; /*rgb(255, 255, 240)*/
+    --linen: #e9dcc9; /*rgb(233, 220, 201)*/
+    --navajo-white: #ffdead; /*rgb(255, 222, 173)*/
+    --off-white: #faf9f6; /*rgb(250, 249, 246)*/
+    --parchment: #fcf5e5; /*rgb(252, 245, 229)*/
+    --peach: #ffe5b4; /*rgb(255, 229, 180)*/
+    --pearl: #e2dfd2; /*rgb(226, 223, 210)*/
+    --seashell: #fff5ee; /*rgb(255, 245, 238)*/
+    --vanilla: #f3e5ab; /*rgb(243, 229, 171)*/
+    --white: #ffffff; /*rgb(255, 255, 255)*/
+    --almond: #eaddca; /*rgb(234, 221, 202)*/
+    --amber: #ffbf00; /*rgb(255, 191, 0)*/
+    --apricot: #fbceb1; /*rgb(251, 206, 177)*/
+    --beige: #f5f5dc; /*rgb(245, 245, 220)*/
+    --brass: #e1c16e; /*rgb(225, 193, 110)*/
+    --bright-yellow: #ffea00; /*rgb(255, 234, 0)*/
+    --cadmium-yellow: #fdda0d; /*rgb(253, 218, 13)*/
+    --canary-yellow: #ffff8f; /*rgb(255, 255, 143)*/
+    --chartreuse: #dfff00; /*rgb(223, 255, 0)*/
+    --citrine: #e4d00a; /*rgb(228, 208, 10)*/
+    --cornsilk: #fff8dc; /*rgb(255, 248, 220)*/
+    --cream: #fffdd0; /*rgb(255, 253, 208)*/
+    --dark-yellow: #8b8000; /*rgb(139, 128, 0)*/
+    --desert: #fad5a5; /*rgb(250, 213, 165)*/
+    --ecru: #c2b280; /*rgb(194, 178, 128)*/
+    --flax: #eedc82; /*rgb(238, 220, 130)*/
+    --gamboge: #e49b0f; /*rgb(228, 155, 15)*/
+    --gold: #ffd700; /*rgb(255, 215, 0)*/
+    --golden-yellow: #ffc000; /*rgb(255, 192, 0)*/
+    --goldenrod: #daa520; /*rgb(218, 165, 32)*/
+    --icterine: #fcf55f; /*rgb(252, 245, 95)*/
+    --ivory: #fffff0; /*rgb(255, 255, 240)*/
+    --jasmine: #f8de7e; /*rgb(248, 222, 126)*/
+    --khaki: #f0e68c; /*rgb(240, 230, 140)*/
+    --lemon: yellow #fafa33; /*rgb(250, 250, 51)*/
+    --maize: #fbec5d; /*rgb(251, 236, 93)*/
+    --mango: #f4bb44; /*rgb(244, 187, 68)*/
+    --mustard-yellow: #ffdb58; /*rgb(255, 219, 88)*/
+    --naples-yellow: #fada5e; /*rgb(250, 218, 94)*/
+    --navajo-white: #ffdead; /*rgb(255, 222, 173)*/
+    --nyanza: #ecffdc; /*rgb(236, 255, 220)*/
+    --pastel-yellow: #fffaa0; /*rgb(255, 250, 160)*/
+    --peach: #ffe5b4; /*rgb(255, 229, 180)*/
+    --pear: #c9cc3f; /*rgb(201, 204, 63)*/
+    --peridot: #b4c424; /*rgb(180, 196, 36)*/
+    --pistachio: #93c572; /*rgb(147, 197, 114)*/
+    --saffron: #f4c430; /*rgb(244, 196, 48)*/
+    --vanilla: #f3e5ab; /*rgb(243, 229, 171)*/
+    --vegas-gold: #c4b454; /*rgb(196, 180, 84)*/
+    --wheat: #f5deb3; /*rgb(245, 222, 179)*/
+    --yellow: #ffff00; /*rgb(255, 255, 0)*/
+    --yellow-orange: #ffaa33; /*rgb(255, 170, 51)*/
+
+    /* Humo main colors */
+    --accent: #f76835;
+    --accent50: #fff5f0;
+    --onAccent: #ffffff;
+    --bg-basegrey: #f5f5f5;
+    --border-color: #ebebeb;
+    --fg-base-subtle: #737373;
+    --fg-base-default: #171717;
+}
